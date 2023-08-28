@@ -1,0 +1,194 @@
+h1 {
+  font-size: 6.4rem;
+}
+
+.home-page {
+  /* The image used */
+  background-image: url("../images/bg-Image.png");
+
+  /* Full height */
+  width: 100%;
+  height: 735px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page__container {
+  padding-top: 128px;
+  padding-bottom: 64px;
+}
+
+.home-page__btn {
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 190px;
+}
+
+.home-page__header-text {
+}
+.home-page__header__title {
+  width: 100%;
+  max-width: 640px;
+  color: var(--white-color);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 76.8px */
+  margin-bottom: 48px;
+}
+
+.home-page__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-page__header__btn {
+}
+.secondary-btn {
+}
+.btn {
+}
+.home-page__header__play {
+  display: flex;
+  align-items: center;
+}
+.home-page__header__play__link {
+  display: inline-block;
+  color: var(--white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 8px;
+}
+
+.home-page__icon {
+  display: inline-block;
+}
+
+.home-page__button_describtion {
+  display: inline;
+  color: #fff;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.home-page__button_hr {
+  display: inline-block;
+  width: 100%;
+  max-width: 852px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 4px;
+  background: var(--off-white);
+}
+
+/* ----------------- ABOUT SECTION SATRT ----------------- */
+.about-section {
+  margin-top: 158px;
+  margin-bottom: 64px;
+}
+
+.about-section__text-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section__top-text {
+  margin-left: 10.2rem;
+}
+
+.about-section__left-video {
+  margin-bottom: 64px;
+}
+
+.about-section__title {
+  margin-left: 0;
+}
+
+.about-section__describtion {
+  width: 100%;
+  max-width: 608px;
+  color: var(--secondary-text);
+  font-style: normal;
+  line-height: 160%;
+  margin-bottom: 4.8rem;
+}
+
+.about-section__btn {
+  margin-bottom: 12.6rem;
+}
+
+.about-section__buttom-row__title {
+  margin-left: 0;
+  display: inline;
+}
+
+.about-section__hr {
+  display: inline-block;
+  background: #e5e5e5;
+  display: inline-block;
+  background: var(--border-color);
+  width: 84%;
+  margin-bottom: 5px;
+  margin-left: 2.4rem;
+}
+
+.about-section__text {
+  margin-bottom: 3.351rem;
+}
+
+.about-section__buttom-row__image {
+  display: flex;
+  gap: 96.3px;
+  margin-top: 3.351rem;
+}
+/* ----------------- ABOUT SECTION END ----------------- */
+
+/* ----------------- WHATWEDO SECTION START ----------------- */
+.whatwedo-section {
+  background: var(--green-tertiary, #eff7f2);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.whatwedo-section__container {
+}
+
+.whatwedo-section__title {
+  margin-bottom: 1.6rem;
+}
+
+.whatwedo-section__describtion {
+  margin-bottom: 3.3rem;
+}
+
+.whatwedo-section__functions__item {
+  display: flex;
+  align-items: start;
+  margin-bottom: 2.4rem;
+}
+
+.whatwedo-section__functions__item__tex {
+  margin-left: 2.4rem;
+}
+
+.whatwedo-section__functions__item__title {
+  color: var(--primary-text);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+}
+.whatwedo-section__functions__item__describtion {
+  width: 100%;
+  max-width: 384px;
+  font-style: normal;
+  line-height: 160%;
+}
+/* ----------------- WHATWEDO SECTION END ----------------- */
